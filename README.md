@@ -141,7 +141,7 @@ alt="Animated Mission Control dashboard with radar, satellite, telemetry and tec
 
 <table align="center">
   <tr>
-    <td width="100%" valign="top">
+    <td colspan="2" width="100%" valign="top">
         <a href="https://github.com/YYEnioneYY/CampusForge" title="CampusForge">
         <img src="./assets/projects/campusforge.svg" width="100%" alt="CampusForge — NestJS, Kafka and PostgreSQL project" />
       </a>
