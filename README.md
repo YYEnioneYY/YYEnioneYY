@@ -123,10 +123,6 @@
 
 <h2 align="center">🛸 Mission Control</h2>
 
-<div align="center">
-
-<sub>Decorative telemetry of my engineering stack — not a real production monitor.</sub>
-
 <br /><br />
 
 <img
@@ -141,33 +137,29 @@ alt="Animated Mission Control dashboard with radar, satellite, telemetry and tec
 
 <h2 align="center">🌌 Project Galaxy</h2>
 
-<div align="center">
-
-<sub>Each world represents a real project or the next mission waiting beyond the radar.</sub>
-
-</div>
-
 <br />
 
 <table align="center">
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/YYEnioneYY?tab=repositories&amp;q=CampusForge" title="Find CampusForge in Danila's repositories">
+        <a href="https://github.com/YYEnioneYY/CampusForge" title="CampusForge">
         <img src="./assets/projects/campusforge.svg" width="100%" alt="CampusForge — NestJS, Kafka and PostgreSQL project" />
       </a>
     </td>
     <td width="50%" valign="top">
-      <a href="https://github.com/YYEnioneYY/request-app" title="Open Request App repository">
-        <img src="./assets/projects/request-app.svg" width="100%" alt="Request App — React, NestJS and PostgreSQL project" />
+        <a href="https://github.com/YYEnioneYY/xorosho-studio-frontend" title="Xorosho-studio Frontend">
+        <img src="./assets/projects/request-app.svg" width="100%" alt="Xorosho-studio  — React, Vite project" />
       </a>
     </td>
   </tr>
   <tr>
-    <td width="50%" valign="top" title="Springland is a private project">
-      <img src="./assets/projects/springland.svg" width="100%" alt="Springland — private Android and Kotlin project" />
+    <td width="50%" valign="top">
+      <a href="https://github.com/YYEnioneYY/UrbanEye" title="UrbanEye">
+      <img src="./assets/projects/springland.svg" width="100%" alt="UrbanEye" />
     </td>
-    <td width="50%" valign="top" title="Future project — classified">
-      <img src="./assets/projects/classified.svg" width="100%" alt="Classified future project" />
+    <td width="50%" valign="top">
+      <a href="https://github.com/YYEnioneYY/ShadowArenaFront" title="ShadowArenaFront">
+      <img src="./assets/projects/classified.svg" width="100%" alt="ShadowArenaFront" />
     </td>
   </tr>
 </table>
@@ -179,24 +171,6 @@ alt="Animated Mission Control dashboard with radar, satellite, telemetry and tec
 </div>
 
 <br />
-
-<details>
-  <summary><strong>📡 Current Mission Focus</strong></summary>
-  <br />
-
-Advanced Full Stack Development
-
-React + NestJS + PostgreSQL applications
-
-Scalable backend and microservice architecture
-
-Clean interfaces with Tailwind CSS
-
-AI and ML practice with Python and PyTorch
-
-Production engineering and code quality
-
-</details>
 
 <img src="./assets/cosmic-divider.svg" width="100%" alt="" />
 
