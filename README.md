@@ -49,45 +49,80 @@
 
 <img src="./assets/cosmic-divider.svg" width="100%" alt="" />
 
-<h2 align="center">🛠️ Technology Constellation</h2>
+<h2 align="center">🪐 Technology Orbits</h2>
+
+<div align="center">
+
+  <sub>
+    Technologies and tools orbiting around my development universe.
+  </sub>
+
+</div>
+
+<br />
 
 <table align="center">
   <tr>
     <td align="center" width="50%" valign="top">
-      <h3>🌐 Frontend Development</h3>
-      <img src="https://skillicons.dev/icons?i=react,vite,ts,js,html,css,tailwind&theme=dark" alt="Frontend technologies" />
-      <br /><br />
-      React · Vite · TypeScript · JavaScript<br />
-      HTML5 · CSS3 · Tailwind CSS<br />
-      Responsive Design · Component Architecture<br />
-      State Management · API Integration · SPA
+      <h3>🌐 Frontend Orbit</h3>
+      <img
+        width="380"
+        src="https://tech-stack.wontory.dev/api/orbit?text=FRONTEND&amp;slugs=react,vite,typescript,javascript,html5,css,tailwindcss"
+        alt="Frontend technology orbit"
+      />
+      <br />
+      <sub>
+        React · Vite · TypeScript · JavaScript<br />
+        HTML5 · CSS3 · Tailwind CSS<br />
+        Responsive Design · Component Architecture<br />
+        State Management · API Integration · SPA
+      </sub>
     </td>
     <td align="center" width="50%" valign="top">
-      <h3>⚙️ Backend Development</h3>
-      <img src="https://skillicons.dev/icons?i=nodejs,nestjs,express,postgres,prisma,kafka&theme=dark" alt="Backend technologies" />
-      <br /><br />
-      Node.js · NestJS · Express.js<br />
-      PostgreSQL · SQL · Prisma ORM · Kafka<br />
-      REST API · Swagger / OpenAPI · JWT · RBAC<br />
-      Validation · Logging · Security · Clean Architecture
+      <h3>⚙️ Backend Orbit</h3>
+      <img
+        width="380"
+        src="https://tech-stack.wontory.dev/api/orbit?text=BACKEND&amp;slugs=nodedotjs,nestjs,express,postgresql,prisma,apachekafka,swagger,jsonwebtokens"
+        alt="Backend technology orbit"
+      />
+      <br />
+      <sub>
+        Node.js · NestJS · Express.js<br />
+        PostgreSQL · SQL · Prisma ORM · Kafka<br />
+        REST API · Swagger / OpenAPI · JWT · RBAC<br />
+        Validation · Logging · Security · Clean Architecture
+      </sub>
     </td>
   </tr>
   <tr>
     <td align="center" width="50%" valign="top">
-      <h3>🧠 AI & Machine Learning</h3>
-      <img src="https://skillicons.dev/icons?i=python,pytorch&theme=dark" alt="AI and machine learning technologies" />
-      <br /><br />
-      Python · PyTorch · Machine Learning Basics<br />
-      Neural Networks · Data Processing<br />
-      Model Training · AI Experiments · Automation
+      <h3>🧠 AI &amp; Machine Learning Orbit</h3>
+      <img
+        width="380"
+        src="https://tech-stack.wontory.dev/api/orbit?text=AI%20%26%20ML&amp;slugs=python,pytorch"
+        alt="AI and machine learning technology orbit"
+      />
+      <br />
+      <sub>
+        Python · PyTorch · Machine Learning Basics<br />
+        Neural Networks · Data Processing<br />
+        Model Training · AI Experiments · Automation
+      </sub>
     </td>
     <td align="center" width="50%" valign="top">
-      <h3>🧰 Tools & Workflow</h3>
-      <img src="https://skillicons.dev/icons?i=git,github,docker,linux,vscode,postman,figma,npm,pnpm&theme=dark" alt="Development tools" />
+      <h3>🛠️ Development Tools Orbit</h3>
+      <img
+        width="380"
+        src="https://tech-stack.wontory.dev/api/orbit?text=DEV%20TOOLS&amp;slugs=git,github,githubactions,docker,linux,postman,figma,npm,pnpm"
+        alt="Development tools orbit"
+      />
+      <br />
       <br /><br />
-      Git · GitHub · Docker · Linux · VS Code<br />
-      Postman · Figma · NPM · PNPM<br />
-      CI/CD · Agile · Code Review · Debugging
+      <sub>
+        Git · GitHub · GitHub Actions · Docker · Linux<br />
+        VS Code · Postman · Figma · NPM · PNPM<br />
+        CI/CD · Agile · Code Review · Debugging
+      </sub>
     </td>
   </tr>
 </table>
