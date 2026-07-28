@@ -121,35 +121,82 @@
 
 <img src="./assets/cosmic-divider.svg" width="100%" alt="" />
 
-<h2 align="center">🚀 Mission Capabilities</h2>
+<h2 align="center">🛸 Mission Control</h2>
+
+<div align="center">
+
+<sub>Decorative telemetry of my engineering stack — not a real production monitor.</sub>
+
+<br /><br />
+
+<img
+src="./assets/mission-control.svg"
+width="100%"
+alt="Animated Mission Control dashboard with radar, satellite, telemetry and technology service statuses"
+/>
+
+</div>
+
+<img src="./assets/cosmic-divider.svg" width="100%" alt="" />
+
+<h2 align="center">🌌 Project Galaxy</h2>
+
+<div align="center">
+
+<sub>Each world represents a real project or the next mission waiting beyond the radar.</sub>
+
+</div>
+
+<br />
 
 <table align="center">
   <tr>
     <td width="50%" valign="top">
-      <h3 align="center">🧩 What I Can Build</h3>
-      <ul>
-        <li>Modern landing pages and online stores</li>
-        <li>Admin panels, CRM systems and dashboards</li>
-        <li>Interactive maps and responsive interfaces</li>
-        <li>Authentication and authorization systems</li>
-        <li>REST APIs and PostgreSQL databases</li>
-        <li>Backend services and Kafka-driven systems</li>
-        <li>AI / ML prototypes and automation tools</li>
-      </ul>
+      <a href="https://github.com/YYEnioneYY?tab=repositories&amp;q=CampusForge" title="Find CampusForge in Danila's repositories">
+        <img src="./assets/projects/campusforge.svg" width="100%" alt="CampusForge — NestJS, Kafka and PostgreSQL project" />
+      </a>
     </td>
     <td width="50%" valign="top">
-      <h3 align="center">📡 Current Focus</h3>
-      <ul>
-        <li>Advanced Full Stack Development</li>
-        <li>React + NestJS + PostgreSQL applications</li>
-        <li>Scalable backend and microservice architecture</li>
-        <li>Clean interfaces with Tailwind CSS</li>
-        <li>AI and ML practice with Python and PyTorch</li>
-        <li>Production engineering and code quality</li>
-      </ul>
+      <a href="https://github.com/YYEnioneYY/request-app" title="Open Request App repository">
+        <img src="./assets/projects/request-app.svg" width="100%" alt="Request App — React, NestJS and PostgreSQL project" />
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top" title="Springland is a private project">
+      <img src="./assets/projects/springland.svg" width="100%" alt="Springland — private Android and Kotlin project" />
+    </td>
+    <td width="50%" valign="top" title="Future project — classified">
+      <img src="./assets/projects/classified.svg" width="100%" alt="Classified future project" />
     </td>
   </tr>
 </table>
+
+<div align="center">
+
+<sub>🟢 Public mission  ·  🟡 Private mission  ·  🔴 Classified object</sub>
+
+</div>
+
+<br />
+
+<details>
+  <summary><strong>📡 Current Mission Focus</strong></summary>
+  <br />
+
+Advanced Full Stack Development
+
+React + NestJS + PostgreSQL applications
+
+Scalable backend and microservice architecture
+
+Clean interfaces with Tailwind CSS
+
+AI and ML practice with Python and PyTorch
+
+Production engineering and code quality
+
+</details>
 
 <img src="./assets/cosmic-divider.svg" width="100%" alt="" />
 
