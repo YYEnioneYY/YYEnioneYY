@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="300" viewBox="0 0 560 300" role="img" aria-labelledby="title desc">
+  <title id="title">Xorosho Studio frontend project</title>
+  <desc id="desc">Animated cyan planet representing the frontend of the Xorosho Studio browser video application.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#09152c"/>
+      <stop offset="1" stop-color="#111033"/>
+    </linearGradient>
+    <radialGradient id="planet" cx=".3" cy=".25">
+      <stop stop-color="#d2fbff"/>
+      <stop offset=".38" stop-color="#35c9ec"/>
+      <stop offset=".72" stop-color="#4f67d9"/>
+      <stop offset="1" stop-color="#202a7b"/>
+    </radialGradient>
+    <linearGradient id="ring">
+      <stop stop-color="#7c83fd" stop-opacity=".12"/>
+      <stop offset=".48" stop-color="#00e5ff"/>
+      <stop offset="1" stop-color="#b27cff" stop-opacity=".14"/>
+    </linearGradient>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="13"/>
+    </filter>
+    <clipPath id="planetClip"><circle cx="154" cy="151" r="67"/></clipPath>
+  </defs>
+
+  <rect width="560" height="300" rx="22" fill="url(#bg)"/>
+  <rect x="1.5" y="1.5" width="557" height="297" rx="20.5" fill="none" stroke="#38cfea" stroke-opacity=".62" stroke-width="3"/>
+
+  <g fill="#fff">
+    <circle cx="42" cy="50" r="1.5"><animate attributeName="opacity" values=".2;1;.2" dur="2.1s" repeatCount="indefinite"/></circle>
+    <circle cx="239" cy="36" r="1.2"><animate attributeName="opacity" values="1;.2;1" dur="2.7s" repeatCount="indefinite"/></circle>
+    <circle cx="516" cy="58" r="1.6"><animate attributeName="opacity" values=".2;1;.2" dur="1.8s" repeatCount="indefinite"/></circle>
+    <circle cx="474" cy="262" r="1.3"><animate attributeName="opacity" values=".25;1;.25" dur="2.4s" repeatCount="indefinite"/></circle>
+    <circle cx="259" cy="270" r="1.4"><animate attributeName="opacity" values="1;.15;1" dur="2s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <circle cx="154" cy="153" r="87" fill="#26c9e8" opacity=".2" filter="url(#shadow)"/>
+  <ellipse cx="154" cy="151" rx="111" ry="32" fill="none" stroke="url(#ring)" stroke-width="4" transform="rotate(12 154 151)" stroke-dasharray="13 7">
+    <animate attributeName="stroke-dashoffset" from="0" to="40" dur="4.6s" repeatCount="indefinite"/>
+  </ellipse>
+  <circle cx="154" cy="151" r="67" fill="url(#planet)" stroke="#b9f8ff" stroke-opacity=".5"/>
+
+  <g clip-path="url(#planetClip)" fill="none">
+    <path d="M80 124c45-19 98-17 150 8M81 171c47 20 98 20 150-5" stroke="#e4fcff" stroke-opacity=".18" stroke-width="9"/>
+    <path d="M117 85c28 35 38 79 31 135M169 82c27 38 31 83 16 132" stroke="#dce5ff" stroke-opacity=".18" stroke-width="5"/>
+  </g>
+
+  <g aria-label="Play icon" transform="translate(154 151)">
+    <circle r="25" fill="#07152b" fill-opacity=".68" stroke="#d9fbff" stroke-opacity=".75"/>
+    <path d="M-7-12L14 0-7 12Z" fill="#fff" filter="url(#glow)"/>
+    <animateTransform attributeName="transform" type="translate" values="154 151;154 147;154 151" dur="3s" repeatCount="indefinite"/>
+  </g>
+
+  <g transform="rotate(0 154 151)">
+    <g transform="translate(254 151)">
+      <rect x="-9" y="-7" width="18" height="14" rx="3" fill="#9cf4ff" stroke="#00e5ff"/>
+      <path d="M12-5l10-6v22L12 5Z" fill="#6776ec" stroke="#b9c2ff"/>
+    </g>
+    <animateTransform attributeName="transform" type="rotate" from="0 154 151" to="-360 154 151" dur="7.4s" repeatCount="indefinite"/>
+  </g>
+
+  <g font-family="'Segoe UI',Arial,sans-serif">
+    <text x="286" y="68" fill="#4de4ff" font-size="10" font-weight="800" letter-spacing="3">MEDIA FRONTEND</text>
+    <text x="286" y="105" fill="#f2fcff" font-size="26" font-weight="800">Xorosho Studio</text>
+    <text x="286" y="132" fill="#aab8d8" font-size="13">Video conversion &amp; playback</text>
+
+    <rect x="286" y="158" width="58" height="25" rx="12" fill="#102f51" stroke="#1e9cc4"/>
+    <text x="315" y="175" fill="#bff6ff" font-size="10" font-weight="700" text-anchor="middle">REACT</text>
+    <rect x="352" y="158" width="78" height="25" rx="12" fill="#102f51" stroke="#1e9cc4"/>
+    <text x="391" y="175" fill="#bff6ff" font-size="10" font-weight="700" text-anchor="middle">TYPESCRIPT</text>
+    <rect x="438" y="158" width="94" height="25" rx="12" fill="#102f51" stroke="#1e9cc4"/>
+    <text x="485" y="175" fill="#bff6ff" font-size="9" font-weight="700" text-anchor="middle">FFMPEG.WASM</text>
+
+    <text x="286" y="224" fill="#7f90b4" font-size="11" letter-spacing="1.5">FRONTEND PROJECT</text>
+    <circle cx="291" cy="252" r="5" fill="#00f5d4" filter="url(#glow)">
+      <animate attributeName="opacity" values=".35;1;.35" dur="1.45s" repeatCount="indefinite"/>
+    </circle>
+    <text x="307" y="256" fill="#00f5d4" font-size="11" font-weight="800" letter-spacing="2">EXPLORE MISSION</text>
+  </g>
+</svg>

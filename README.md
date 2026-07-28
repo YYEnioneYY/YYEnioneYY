@@ -141,25 +141,31 @@ alt="Animated Mission Control dashboard with radar, satellite, telemetry and tec
 
 <table align="center">
   <tr>
-    <td width="50%" valign="top">
+    <td width="100%" valign="top">
         <a href="https://github.com/YYEnioneYY/CampusForge" title="CampusForge">
         <img src="./assets/projects/campusforge.svg" width="100%" alt="CampusForge — NestJS, Kafka and PostgreSQL project" />
-      </a>
-    </td>
-    <td width="50%" valign="top">
-        <a href="https://github.com/YYEnioneYY/xorosho-studio-frontend" title="Xorosho-studio Frontend">
-        <img src="./assets/projects/request-app.svg" width="100%" alt="Xorosho-studio  — React, Vite project" />
       </a>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/YYEnioneYY/UrbanEye" title="UrbanEye">
-      <img src="./assets/projects/springland.svg" width="100%" alt="UrbanEye" />
+        <a href="https://github.com/YYEnioneYY/xorosho-studio-frontend" title="Xorosho-studio Frontend">
+        <img src="./assets/projects/xorosho-studio.svg" width="100%" alt="Xorosho-studio  — React, Vite project" />
+      </a>
     </td>
     <td width="50%" valign="top">
+      <a href="https://github.com/YYEnioneYY/UrbanEye" title="UrbanEye">
+      <img src="./assets/projects/urbaneye.svg" width="100%" alt="UrbanEye" />
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
       <a href="https://github.com/YYEnioneYY/ShadowArenaFront" title="ShadowArenaFront">
-      <img src="./assets/projects/classified.svg" width="100%" alt="ShadowArenaFront" />
+      <img src="./assets/projects/shadowarena.svg" width="100%" alt="ShadowArenaFront" />
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/YYEnioneYY/request-app" title="RequestApp">
+      <img src="./assets/projects/request-app.svg" width="100%" alt="RequestApp" />
     </td>
   </tr>
 </table>
