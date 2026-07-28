@@ -1,0 +1,170 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" role="img" aria-labelledby="title description">
+  <title id="title">Danila — Full Stack Developer and Backend Engineer</title>
+  <desc id="description">Animated deep-space banner with stars, a planet and a shooting star.</desc>
+
+  <defs>
+    <linearGradient id="space" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#020024" />
+      <stop offset="0.38" stop-color="#090979" />
+      <stop offset="0.72" stop-color="#35155D" />
+      <stop offset="1" stop-color="#001B3A" />
+    </linearGradient>
+
+    <radialGradient id="nebulaA" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#7C3AED" stop-opacity="0.55" />
+      <stop offset="1" stop-color="#7C3AED" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="nebulaB" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#00D9FF" stop-opacity="0.35" />
+      <stop offset="1" stop-color="#00D9FF" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="planet" cx="35%" cy="30%" r="75%">
+      <stop offset="0" stop-color="#A78BFA" />
+      <stop offset="0.42" stop-color="#6D28D9" />
+      <stop offset="0.78" stop-color="#312E81" />
+      <stop offset="1" stop-color="#111827" />
+    </radialGradient>
+
+    <linearGradient id="ring" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00D9FF" stop-opacity="0" />
+      <stop offset="0.5" stop-color="#E0E7FF" stop-opacity="0.9" />
+      <stop offset="1" stop-color="#7C3AED" stop-opacity="0" />
+    </linearGradient>
+
+    <filter id="blur40" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="40" />
+    </filter>
+
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <filter id="textGlow" x="-30%" y="-50%" width="160%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="coloredBlur" />
+      <feMerge>
+        <feMergeNode in="coloredBlur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="360" fill="url(#space)" />
+
+  <ellipse cx="270" cy="120" rx="310" ry="210" fill="url(#nebulaA)" filter="url(#blur40)">
+    <animate attributeName="opacity" values="0.45;0.85;0.45" dur="9s" repeatCount="indefinite" />
+  </ellipse>
+  <ellipse cx="860" cy="270" rx="360" ry="190" fill="url(#nebulaB)" filter="url(#blur40)">
+    <animate attributeName="opacity" values="0.75;0.35;0.75" dur="11s" repeatCount="indefinite" />
+  </ellipse>
+
+  <g fill="#FFFFFF">
+    <circle cx="65" cy="65" r="1.8">
+      <animate attributeName="opacity" values="0.25;1;0.25" dur="2.1s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="135" cy="205" r="1.2">
+      <animate attributeName="opacity" values="1;0.2;1" dur="3.4s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="210" cy="48" r="1">
+      <animate attributeName="opacity" values="0.2;0.9;0.2" dur="4.2s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="292" cy="286" r="1.7">
+      <animate attributeName="opacity" values="0.35;1;0.35" dur="2.8s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="355" cy="88" r="1.1">
+      <animate attributeName="opacity" values="1;0.3;1" dur="3.7s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="425" cy="315" r="1.4">
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="3.1s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="495" cy="42" r="1.8">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="4.5s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="575" cy="105" r="1.1">
+      <animate attributeName="opacity" values="1;0.25;1" dur="2.6s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="650" cy="300" r="1.5">
+      <animate attributeName="opacity" values="0.2;0.9;0.2" dur="3.8s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="735" cy="58" r="1">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="2.9s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="790" cy="220" r="1.9">
+      <animate attributeName="opacity" values="1;0.2;1" dur="4.1s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="875" cy="92" r="1.2">
+      <animate attributeName="opacity" values="0.25;1;0.25" dur="3.3s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="950" cy="302" r="1.5">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="2.5s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="1035" cy="244" r="1.1">
+      <animate attributeName="opacity" values="1;0.25;1" dur="3.9s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="1135" cy="74" r="1.7">
+      <animate attributeName="opacity" values="0.2;0.95;0.2" dur="4.4s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="1170" cy="286" r="1">
+      <animate attributeName="opacity" values="0.35;1;0.35" dur="3s" repeatCount="indefinite" />
+    </circle>
+  </g>
+
+  <g opacity="0.75" fill="#7DD3FC">
+    <circle cx="92" cy="304" r="0.8" />
+    <circle cx="180" cy="142" r="0.9" />
+    <circle cx="334" cy="225" r="0.7" />
+    <circle cx="465" cy="177" r="0.8" />
+    <circle cx="615" cy="55" r="0.7" />
+    <circle cx="705" cy="245" r="0.9" />
+    <circle cx="842" cy="325" r="0.8" />
+    <circle cx="920" cy="42" r="0.7" />
+    <circle cx="1092" cy="328" r="0.9" />
+  </g>
+
+  <g transform="translate(1040 118)">
+    <ellipse cx="0" cy="0" rx="96" ry="23" fill="none" stroke="url(#ring)" stroke-width="6" transform="rotate(-15)" />
+    <circle cx="0" cy="0" r="58" fill="url(#planet)" filter="url(#glow)" />
+    <path d="M-48 -17 C-18 -29 15 -20 47 -30" fill="none" stroke="#C4B5FD" stroke-opacity="0.28" stroke-width="8" />
+    <path d="M-50 17 C-12 7 18 20 43 8" fill="none" stroke="#00D9FF" stroke-opacity="0.22" stroke-width="6" />
+    <circle cx="-18" cy="-20" r="7" fill="#DDD6FE" opacity="0.3" />
+    <g>
+      <circle cx="82" cy="0" r="6" fill="#67E8F9" filter="url(#glow)" />
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="8s" repeatCount="indefinite" />
+    </g>
+  </g>
+
+  <g filter="url(#glow)">
+    <line x1="-80" y1="-20" x2="-18" y2="10" stroke="#A5F3FC" stroke-width="3" stroke-linecap="round" />
+    <circle cx="-12" cy="13" r="4" fill="#FFFFFF" />
+    <animateTransform attributeName="transform" type="translate" values="0 0;1380 265" dur="7s" begin="1s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.08;0.75;1" dur="7s" begin="1s" repeatCount="indefinite" />
+  </g>
+
+  <g text-anchor="middle" font-family="Segoe UI, Arial, sans-serif">
+    <text x="600" y="160" fill="#FFFFFF" font-size="68" font-weight="800" letter-spacing="11" filter="url(#textGlow)">
+      DANILA
+      <animate attributeName="letter-spacing" values="8;14;8" dur="6s" repeatCount="indefinite" />
+    </text>
+    <text x="600" y="207" fill="#A5F3FC" font-size="19" font-weight="600" letter-spacing="4">
+      FULL STACK DEVELOPER • BACKEND ENGINEER
+    </text>
+    <text x="600" y="249" fill="#C4B5FD" font-size="14" letter-spacing="3">
+      BUILDING SCALABLE SYSTEMS ACROSS THE DIGITAL UNIVERSE
+    </text>
+  </g>
+
+  <g transform="translate(600 294)" filter="url(#glow)">
+    <circle cx="-34" cy="0" r="3" fill="#7C83FD">
+      <animate attributeName="r" values="2;4;2" dur="2.4s" repeatCount="indefinite" />
+    </circle>
+    <line x1="-24" y1="0" x2="24" y2="0" stroke="#7C83FD" stroke-width="1" opacity="0.8" />
+    <circle cx="34" cy="0" r="3" fill="#00D9FF">
+      <animate attributeName="r" values="4;2;4" dur="2.4s" repeatCount="indefinite" />
+    </circle>
+  </g>
+</svg>
