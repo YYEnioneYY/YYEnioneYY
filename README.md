@@ -29,23 +29,60 @@
 
 <div align="center">
 
-<strong>Full Stack Developer</strong> focused on modern, scalable and clean web applications.I build powerful APIs, responsive interfaces, optimized databases and cloud-ready backend systems.
+  <img
+    src="./assets/about-orbit.svg"
+    width="100%"
+    alt="Animated cosmic About Me banner"
+  />
+
+  <br /><br />
+
+  <strong>Full Stack Developer</strong> focused on modern, scalable and clean web applications.
+
+  I build powerful APIs, responsive interfaces, optimized databases and cloud-ready backend systems.
 
 </div>
 
 <br />
 
-💻 Building production-ready applications with React, NestJS, TypeScript and PostgreSQL
-
-⚙️ Designing REST APIs, authentication systems, databases and event-driven services
-
-🎨 Creating responsive interfaces with React, Vite and Tailwind CSS
-
-🧠 Exploring Artificial Intelligence, Machine Learning, Python and PyTorch
-
-🏗️ Interested in scalable architecture, clean code and distributed systems
-
-🚀 Working toward becoming a strong engineer who builds products people actually use
+<table align="center" width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <strong>💻 Production Engineering</strong>
+      <br />
+      <sub>Building production-ready applications with React, NestJS, TypeScript and PostgreSQL.</sub>
+    </td>
+    <td width="50%" valign="top">
+      <strong>⚙️ System Design</strong>
+      <br />
+      <sub>Designing REST APIs, authentication systems, databases and event-driven services.</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <strong>🎨 Interface Engineering</strong>
+      <br />
+      <sub>Creating responsive interfaces with React, Vite and Tailwind CSS.</sub>
+    </td>
+    <td width="50%" valign="top">
+      <strong>🧠 AI Laboratory</strong>
+      <br />
+      <sub>Exploring Artificial Intelligence, Machine Learning, Python and PyTorch.</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <strong>🏗️ Architecture</strong>
+      <br />
+      <sub>Interested in scalable architecture, clean code and distributed systems.</sub>
+    </td>
+    <td width="50%" valign="top">
+      <strong>🚀 Mission</strong>
+      <br />
+      <sub>Working toward becoming a strong engineer who builds products people actually use.</sub>
+    </td>
+  </tr>
+</table>
 
 <img src="./assets/cosmic-divider.svg" width="100%" alt="" />
 
@@ -263,7 +300,7 @@ alt="Animated Mission Control dashboard with radar, satellite, telemetry and tec
     <img src="https://img.shields.io/badge/Telegram-@YYEnioneYY-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram" />
   </a>
   <a href="#">
-    <img src="https://img.shields.io/badge/Portfolio-Coming_Soon-6C63FF?style=for-the-badge&logo=firefox-browser&logoColor=white" alt="Portfolio" />
+    <img src="https://img.shields.io/badge/Website-Coming_Soon-6C63FF?style=for-the-badge&logo=firefox-browser&logoColor=white" alt="Website" />
   </a>
 
 </div>

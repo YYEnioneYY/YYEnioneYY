@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="190" viewBox="0 0 1200 190" role="img" aria-labelledby="title desc">
+  <title id="title">Animated About Me orbit</title>
+  <desc id="desc">A decorative cosmic signal banner for Danila's About Me section.</desc>
+
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#07091a"/>
+      <stop offset=".5" stop-color="#0d1230"/>
+      <stop offset="1" stop-color="#071422"/>
+    </linearGradient>
+    <linearGradient id="signal" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#7c83fd"/>
+      <stop offset=".5" stop-color="#00d9ff"/>
+      <stop offset="1" stop-color="#00f5d4"/>
+    </linearGradient>
+    <radialGradient id="planet">
+      <stop stop-color="#d9faff"/>
+      <stop offset=".35" stop-color="#54d8ef"/>
+      <stop offset=".72" stop-color="#6f75ef"/>
+      <stop offset="1" stop-color="#271867"/>
+    </radialGradient>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softGlow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="12"/>
+    </filter>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#7c83fd" stroke-opacity=".065"/>
+    </pattern>
+    <clipPath id="bannerClip">
+      <rect width="1200" height="190" rx="22"/>
+    </clipPath>
+  </defs>
+
+  <rect width="1200" height="190" rx="22" fill="url(#background)"/>
+  <rect x="1.5" y="1.5" width="1197" height="187" rx="20.5" fill="none" stroke="#7c83fd" stroke-opacity=".52" stroke-width="3"/>
+  <rect x="17" y="17" width="1166" height="156" rx="15" fill="url(#grid)"/>
+
+  <g clip-path="url(#bannerClip)" fill="#fff">
+    <circle cx="52" cy="38" r="1.5"><animate attributeName="opacity" values=".15;1;.15" dur="2.1s" repeatCount="indefinite"/></circle>
+    <circle cx="173" cy="145" r="1.2"><animate attributeName="opacity" values="1;.15;1" dur="2.8s" repeatCount="indefinite"/></circle>
+    <circle cx="342" cy="34" r="1.3"><animate attributeName="opacity" values=".2;1;.2" dur="1.7s" repeatCount="indefinite"/></circle>
+    <circle cx="846" cy="151" r="1.4"><animate attributeName="opacity" values="1;.2;1" dur="2.4s" repeatCount="indefinite"/></circle>
+    <circle cx="1031" cy="38" r="1.2"><animate attributeName="opacity" values=".2;1;.2" dur="1.9s" repeatCount="indefinite"/></circle>
+    <circle cx="1152" cy="136" r="1.5"><animate attributeName="opacity" values="1;.15;1" dur="2.6s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <g aria-label="Orbiting developer planet">
+    <circle cx="144" cy="95" r="67" fill="#00d9ff" opacity=".1" filter="url(#softGlow)"/>
+    <ellipse cx="144" cy="95" rx="112" ry="35" fill="none" stroke="#00d9ff" stroke-opacity=".45" stroke-width="2.5" stroke-dasharray="13 8" transform="rotate(-9 144 95)">
+      <animate attributeName="stroke-dashoffset" from="0" to="-42" dur="4.8s" repeatCount="indefinite"/>
+    </ellipse>
+    <circle cx="144" cy="95" r="47" fill="url(#planet)" stroke="#b9f8ff" stroke-opacity=".52"/>
+    <path d="M104 83c28-12 56-11 81 2M106 108c27 11 54 12 78-1" fill="none" stroke="#e5fbff" stroke-opacity=".2" stroke-width="6"/>
+    <g transform="rotate(0 144 95)">
+      <circle cx="245" cy="95" r="6" fill="#00f5d4" filter="url(#glow)"/>
+      <animateTransform attributeName="transform" type="rotate" from="0 144 95" to="360 144 95" dur="6.5s" repeatCount="indefinite"/>
+    </g>
+  </g>
+
+  <g font-family="'Segoe UI',Arial,sans-serif">
+    <text x="318" y="71" fill="#8e96ff" font-size="11" font-weight="800" letter-spacing="3.5">DEVELOPER SIGNAL // IDENTIFIED</text>
+    <text x="318" y="112" fill="#edf4ff" font-size="31" font-weight="850" letter-spacing="2">ABOUT THE OPERATOR</text>
+    <text x="318" y="140" fill="#91a3c8" font-size="12" font-weight="650" letter-spacing="2.2">FULL STACK · BACKEND · FRONTEND · AI / ML</text>
+  </g>
+
+  <g aria-label="Signal status" font-family="'Segoe UI',Arial,sans-serif">
+    <rect x="934" y="58" width="204" height="74" rx="15" fill="#0a2730" stroke="#00f5d4" stroke-opacity=".45"/>
+    <circle cx="960" cy="83" r="6" fill="#00f5d4" filter="url(#glow)">
+      <animate attributeName="r" values="4.5;7;4.5" dur="1.5s" repeatCount="indefinite"/>
+    </circle>
+    <text x="978" y="87" fill="#00f5d4" font-size="11" font-weight="850" letter-spacing="2.2">ONLINE</text>
+    <text x="960" y="113" fill="#73999f" font-size="9" letter-spacing="1.8">PROFILE DATA SYNCED</text>
+  </g>
+
+  <g aria-label="Flying satellite">
+    <animateTransform attributeName="transform" type="translate" values="-95 0;1295 0" dur="12s" repeatCount="indefinite"/>
+    <g transform="translate(0 29)">
+      <rect x="-8" y="-6" width="16" height="12" rx="2" fill="#8e96ff" stroke="#dce7ff"/>
+      <path d="M-11-8h-18V8h18M11-8h18V8H11" fill="#123b62" stroke="#00d9ff"/>
+      <circle r="2.5" fill="#00f5d4" filter="url(#glow)"/>
+    </g>
+  </g>
+
+  <path d="M286 160H904" stroke="#1b2a4a" stroke-width="5" stroke-linecap="round"/>
+  <path d="M286 160H904" stroke="url(#signal)" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="80 540" filter="url(#glow)">
+    <animate attributeName="stroke-dashoffset" from="80" to="-540" dur="3.6s" repeatCount="indefinite"/>
+  </path>
+</svg>
