@@ -139,8 +139,8 @@
   <br />
 
 <img
- src="https://streak-stats.demolab.com?user=YYEnioneYY&theme=tokyonight&hide_border=true&background=0D1117&ring=7C83FD&fire=00D9FF&currStreakLabel=7C83FD"
- alt="Danila's GitHub contribution streak"
+  src="https://streak-stats.demolab.com/?user=YYEnioneYY&theme=tokyonight&hide_border=true&background=0D1117&ring=7C83FD&fire=00D9FF&currStreakLabel=7C83FD&disable_animations=true&v=2"
+  alt="Danila's GitHub contribution streak"
 />
 
 </div>
@@ -152,8 +152,8 @@
 <div align="center">
 
 <img
- src="https://github-profile-trophy.vercel.app/?username=YYEnioneYY&theme=algolia&no-frame=true&no-bg=true&margin-w=12&margin-h=12&row=1&column=6"
- alt="GitHub trophies"
+  src="https://trophy.ryglcloud.net/?username=YYEnioneYY&theme=algolia&no-frame=true&no-bg=true&margin-w=12&margin-h=12&row=1&column=6"
+  alt="GitHub trophies"
 />
 
 </div>
