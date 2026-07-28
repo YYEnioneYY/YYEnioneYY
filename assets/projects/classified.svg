@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="300" viewBox="0 0 560 300" role="img" aria-labelledby="title desc">
+  <title id="title">Classified future project</title>
+  <desc id="desc">Animated hidden celestial object reserved for a future project.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#11131d"/><stop offset="1" stop-color="#17101a"/></linearGradient>
+    <radialGradient id="void" cx=".35" cy=".3"><stop stop-color="#707789"/><stop offset=".3" stop-color="#303543"/><stop offset=".78" stop-color="#10131d"/><stop offset="1" stop-color="#000"/></radialGradient>
+    <linearGradient id="ring"><stop stop-color="#ff5c7c" stop-opacity=".08"/><stop offset=".5" stop-color="#ff6b81"/><stop offset="1" stop-color="#7c83fd" stop-opacity=".08"/></linearGradient>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="blur"><feGaussianBlur stdDeviation="2.5"/></filter>
+  </defs>
+  <rect width="560" height="300" rx="22" fill="url(#bg)"/>
+  <rect x="1.5" y="1.5" width="557" height="297" rx="20.5" fill="none" stroke="#7b5264" stroke-opacity=".62" stroke-width="3"/>
+  <g fill="#fff">
+    <circle cx="39" cy="56" r="1.5"><animate attributeName="opacity" values=".15;.8;.15" dur="2.5s" repeatCount="indefinite"/></circle>
+    <circle cx="248" cy="34" r="1.2"><animate attributeName="opacity" values=".7;.1;.7" dur="1.9s" repeatCount="indefinite"/></circle>
+    <circle cx="520" cy="66" r="1.5"><animate attributeName="opacity" values=".12;.75;.12" dur="2.9s" repeatCount="indefinite"/></circle>
+    <circle cx="474" cy="265" r="1.2"><animate attributeName="opacity" values=".15;.8;.15" dur="2.2s" repeatCount="indefinite"/></circle>
+    <circle cx="260" cy="272" r="1.4"><animate attributeName="opacity" values=".7;.1;.7" dur="2.7s" repeatCount="indefinite"/></circle>
+  </g>
+  <ellipse cx="154" cy="151" rx="113" ry="34" fill="none" stroke="url(#ring)" stroke-width="3" transform="rotate(12 154 151)" stroke-dasharray="4 13">
+    <animate attributeName="stroke-dashoffset" from="0" to="68" dur="6s" repeatCount="indefinite"/>
+  </ellipse>
+  <circle cx="154" cy="151" r="76" fill="#ff5c7c" opacity=".08" filter="url(#glow)">
+    <animate attributeName="r" values="72;80;72" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="154" cy="151" r="65" fill="url(#void)" stroke="#888fa0" stroke-opacity=".35" filter="url(#blur)"/>
+  <path d="M113 139c18-24 61-31 87-8M105 168c30 18 72 18 99-3" fill="none" stroke="#d8dbe4" stroke-opacity=".08" stroke-width="10"/>
+  <g transform="rotate(0 154 151)">
+    <circle cx="254" cy="151" r="5" fill="#ff5c7c" filter="url(#glow)">
+      <animate attributeName="opacity" values=".25;1;.25" dur="1.3s" repeatCount="indefinite"/>
+    </circle>
+    <animateTransform attributeName="transform" type="rotate" from="0 154 151" to="-360 154 151" dur="9s" repeatCount="indefinite"/>
+  </g>
+  <g font-family="'Segoe UI',Arial,sans-serif">
+    <text x="286" y="68" fill="#ff6b81" font-size="10" font-weight="800" letter-spacing="3">UNKNOWN OBJECT</text>
+    <text x="286" y="105" fill="#f5eef1" font-size="29" font-weight="800">CLASSIFIED</text>
+    <text x="286" y="132" fill="#8f99af" font-size="13">Next mission is being prepared</text>
+    <rect x="286" y="158" width="90" height="25" rx="12" fill="#2b1c25" stroke="#714051"/><text x="331" y="175" fill="#c5a5b1" font-size="10" font-weight="700" text-anchor="middle">ENCRYPTED</text>
+    <rect x="384" y="158" width="83" height="25" rx="12" fill="#2b1c25" stroke="#714051"/><text x="425" y="175" fill="#c5a5b1" font-size="10" font-weight="700" text-anchor="middle">IN DESIGN</text>
+    <text x="286" y="224" fill="#747d92" font-size="11" letter-spacing="1.5">TRANSMISSION LOCKED</text>
+    <circle cx="291" cy="252" r="5" fill="#ff5c7c" filter="url(#glow)"><animate attributeName="opacity" values=".25;1;.25" dur="1.2s" repeatCount="indefinite"/></circle>
+    <text x="307" y="256" fill="#ff7d94" font-size="11" font-weight="800" letter-spacing="2">ACCESS DENIED</text>
+  </g>
+</svg>

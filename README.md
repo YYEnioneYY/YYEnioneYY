@@ -51,14 +51,6 @@
 
 <h2 align="center">🪐 Technology Orbits</h2>
 
-<div align="center">
-
-  <sub>
-    Technologies and tools orbiting around my development universe.
-  </sub>
-
-</div>
-
 <br />
 
 <table align="center">
@@ -210,10 +202,6 @@
 <img src="./assets/cosmic-divider.svg" width="100%" alt="" />
 
 <h2 align="center">👾 Contribution Galaxy</h2>
-
-<div align="center">
-
-<sub>My contribution graph transformed into an animated Galaga battle.</sub>
 
 <br /><br />
 
